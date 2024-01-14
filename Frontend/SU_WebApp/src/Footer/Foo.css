@@ -8,6 +8,7 @@ body{
     background-color: #00AA88;
     display: flex;
     justify-content: space-around;
+    box-shadow: 0px 0px 20px #00AA88;
 }
 
 .Foot_logo{

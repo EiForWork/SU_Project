@@ -1,8 +1,7 @@
 import React from "react";
 import './hom.css'
 import Slideshow from "./slide";
-
-
+import sea from './img/sea.jpg'
 import Footer from "../Footer/Footer";
 
 function Home(){
@@ -14,7 +13,7 @@ return(
 <h>วิทยาลัยเขตพระราชวังสนามจันทร์</h>
 </div>
 
-{/* <Slideshow/> */}
+<Slideshow/>
 
 <div className="title2">
 <h>บริการ</h>
@@ -25,17 +24,17 @@ return(
     <div className="firstrow">
 
         <div className="products1">
-            <img/>
+            <img src={sea}/>
             <p>ชื่อสินค้า</p>
         </div>
 
         <div className="products1">
-            <img/>
+        <img src={sea}/>
             <p>ชื่อสินค้า</p>
         </div>
 
         <div className="products1">
-            <img/>
+        <img src={sea}/>
             <p>ชื่อสินค้า</p>
         </div>
 
@@ -46,17 +45,17 @@ return(
     <div className="firstrow">
 
         <div className="products1">
-            <img/>
+        <img src={sea}/>
             <p>ชื่อสินค้า</p>
         </div>
 
         <div className="products1">
-            <img/>
+        <img src={sea}/>
             <p>ชื่อสินค้า</p>
         </div>
 
         <div className="products1">
-            <img/>
+        <img src={sea}/>
             <p>ชื่อสินค้า</p>
         </div>
 
@@ -65,8 +64,6 @@ return(
 
 </div>
 
-
-<Footer/>
 
 </>
 )
