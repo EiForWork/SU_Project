@@ -1,0 +1,22 @@
+//รายละเอียดไฟล์
+
+1.fonts ไฟล์เก็บfonts
+2.Footer ไฟล์ที่เก็บFooter tab
+3.imgs ไฟล์ใช้เก็บรูปภาพ
+4.Navbar ไฟล์ที่เก็บฝั่งของNavbar
+5.Page1 เก็บหน้า Home และ SlideShow
+6.Page2 เก็บส่วนของหน้า ใบเสนอราคา
+7.Page3 เก็บส่วนของหน้าติดต่อโรงพิมพ์
+8.Sidetab เก็บtab
+
+
+//การSetupและเปิดใช้งานโปรเจค
+
+1.เปิดโฟลเดอร์นี้ใน Vscode 
+2.เปิดTerminalขึ้นมา (หากไม่มีเข้าไปที่ View --> Terminal)
+3.พิมพ์คำสั่งต่อไปนี้ในTerminal  --> cd Frontend --> cd SU_WepApp
+4.พิมพ์คำสั่งต่อไปนี้เพื่อติดตั้งPackageที่จำเป็น 4.1 npm i --> 4.2 npm @emailjs/browser
+5.เปิดใช้งานโปรเจคโดยการพิมพ์ npm run dev 
+6.เปิดBrowserตัวใดก็ได้ขึ้นมาและพิมไปที่ http://localhost:5173/ หรือคลิ้กลิ้งที่vscodeให้มาในtab Terminal
+
+
