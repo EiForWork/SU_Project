@@ -13,7 +13,7 @@ const Slideshow = () => {
       let dots = document.getElementsByClassName("dot");
       for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
-        console.log(slides[i])
+        // console.log(slides[i])
       }
       setSlideIndex((prevIndex) => {
         let newIndex = prevIndex + 1;

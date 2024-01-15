@@ -6,7 +6,7 @@ import ig from './imgs/ig.png'
 import x from './imgs/x.png'
 import fb from './imgs/fb.png'
 import Footer from './Footer/Footer'
-
+import Sidetab from './sidetab/sidetab'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,13 +14,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div className="sidetab">
-      <div className="tab">
-        <img src={ig}/>
-        <img src={x}/>
-        <img src={fb}/>
-      </div>
-    </div>
+    <Sidetab/>
     <Home/>
     <Footer/>
     </>

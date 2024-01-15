@@ -3,12 +3,13 @@ import Navbar from "../Navbar/Narbar";
 import Footer from "../Footer/Footer";
 import './cont.css'
 import qr from './qr_ex.png'
+import Sidetab from "../sidetab/sidetab";
 
 function Contact(){
 return(
 <>
 <Navbar />
-
+<Sidetab/>
 <div className="Contract_title">
     <h style={{fontSize:"40px"}}>ติดต่อโรงพิมพ์มหาลัยศิลปากรวิทยาลัยเขตพระราชวังสนามจันทร์</h>
 </div>
