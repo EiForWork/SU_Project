@@ -1,10 +1,11 @@
 .sidetab{
     width: 100%;
-    height: 90%;
+    height: 0%;
     position: fixed;
     display: flex;
     justify-content: end;
     align-items: center;
+    margin-top: 20%;
 }
 
 .tab{

@@ -3,7 +3,7 @@ import './hom.css'
 import Slideshow from "./slide";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
-import Slideer from "./slideshow/slideshow";
+
 import sea from './img/sea.jpg'
 
 
