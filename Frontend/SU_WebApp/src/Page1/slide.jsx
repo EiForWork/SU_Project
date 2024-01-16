@@ -57,6 +57,8 @@ const Slideshow = () => {
           <div className="text">Caption Three</div>
         </div>
       </div>
+      
+      
       <br />
 
       <div style={{ textAlign: 'center' }}>

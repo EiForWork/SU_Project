@@ -64,3 +64,12 @@ body{
     font-size: 18px;
     font-weight: 600;
 }
+
+.show{
+    width: 120%;
+    height: 800px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

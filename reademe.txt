@@ -19,4 +19,30 @@
 5.เปิดใช้งานโปรเจคโดยการพิมพ์ npm run dev 
 6.เปิดBrowserตัวใดก็ได้ขึ้นมาและพิมไปที่ http://localhost:5173/ หรือคลิ้กลิ้งที่vscodeให้มาในtab Terminal
 
+//การ Setup การส่งอีเมล
 
+1.เข้าไปที่เว็บไซต์ https://www.emailjs.com/
+2.สมัครเข้าใช้งานแล้วเข้าสู่ระบบ
+3.เข้าไปที่ Email Services คลิก Add new Services , 
+Connectที่อีเมลแอดมินที่ต้องการส่งข้อความจากเว็บไปให้แอดมิน และติ้กถูก Send test email to verify configuration
+
+4.เข้าไปที่แถบ Email Templates และสร้างTemplates กดที่Edit_Contents
+และนำข้อความต่อไปนี้ไปใส่ ส่วนนี้คือโครงสร้างของอีเมล
+
+
+Hello I am {{first_name}} {{last_name}},
+
+You got a new message from Email: {{email_user}}
+Customer Telephone Number: {{telephone_number}}
+
+รายละเอียดงาน : {{message}}
+
+โรงพิมพ์มหาวิทยาลัยศิลปากร
+
+5.กด Save Templates
+
+6.เปิดไฟล์ offer.jsx ขึ้นมา
+ บรรทัด27 .sendForm('Services_id','Templates_id',form.current,'public_key')
+ นำ Seviceid Templates_id , public_key จากบัญชีemailjs
+ โดยpublic_keyเอาจากกดไปที่แถบAccount มองหาAPI keyและก็อปรหัสpublic_keyมาใส่แทนที่ข้อความข้างต้น
+ ส่วนของServices,Templates_idเอามาจากแถบที่สร้างService,Templates

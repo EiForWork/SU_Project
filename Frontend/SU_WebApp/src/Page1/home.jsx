@@ -1,8 +1,12 @@
 import React from "react";
 import './hom.css'
 import Slideshow from "./slide";
-import sea from './img/sea.jpg'
 import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
+import Slideer from "./slideshow/slideshow";
+import sea from './img/sea.jpg'
+
+
 
 function Home(){
 return(
@@ -14,6 +18,12 @@ return(
 </div>
 
 <Slideshow/>
+
+{/* <div className="show">
+    <Slideer/>
+</div> */}
+
+
 
 <div className="title2">
 <h>บริการ</h>
